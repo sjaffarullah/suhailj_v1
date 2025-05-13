@@ -39,7 +39,7 @@ const Navbar = () => {
           "experience",
           "projects",
           "techstack",
-          "contact",
+          "certifications",
         ];
         let current = "home";
 
