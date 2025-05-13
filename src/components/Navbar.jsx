@@ -38,8 +38,8 @@ const Navbar = () => {
           "about",
           "experience",
           "projects",
-          "certs"
-          "techstack",
+          "certs",
+          "techstack"
         ];
         let current = "home";
 
