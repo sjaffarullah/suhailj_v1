@@ -161,12 +161,12 @@ const Navbar = () => {
           </button>
           <button
             className={`hover:text-white transition duration-300 ${
-              activeSection === "contact" ? "text-white" : ""
+              activeSection === "certifications" ? "text-white" : ""
             }`}
-            onClick={() => handleScroll("contact")}
-            aria-label="Scroll to Contact"
+            onClick={() => handleScroll("certifications")}
+            aria-label="Scroll to certifications"
           >
-            Contact
+            Certifications
           </button>
           <a
             href="https://drive.google.com/file/d/1ROq_rRMRKoWEByms4JukUvm3Fud_mUtL/view?usp=sharing"
@@ -247,13 +247,13 @@ const Navbar = () => {
           />
         </button>
         <button
-          onClick={() => handleScroll("contact")}
-          aria-label="Scroll to Contact"
+          onClick={() => handleScroll("certifications")}
+          aria-label="Scroll to certifications"
           className="text-gray-400 hover:text-white"
         >
           <FiMail
             size={24}
-            className={`${activeSection === "contact" ? "text-white" : ""}`}
+            className={`${activeSection === "certifications" ? "text-white" : ""}`}
           />
         </button>
       </div>
