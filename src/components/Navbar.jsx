@@ -38,8 +38,8 @@ const Navbar = () => {
           "about",
           "experience",
           "projects",
+          "certs"
           "techstack",
-          "certifications",
         ];
         let current = "home";
 
@@ -161,12 +161,12 @@ const Navbar = () => {
           </button>
           <button
             className={`hover:text-white transition duration-300 ${
-              activeSection === "certifications" ? "text-white" : ""
+              activeSection === "certs" ? "text-white" : ""
             }`}
-            onClick={() => handleScroll("certifications")}
-            aria-label="Scroll to certifications"
+            onClick={() => handleScroll("certs")}
+            aria-label="Scroll to certs"
           >
-            Certifications
+            Certs
           </button>
           <a
             href="https://drive.google.com/file/d/1ROq_rRMRKoWEByms4JukUvm3Fud_mUtL/view?usp=sharing"
