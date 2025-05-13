@@ -152,21 +152,21 @@ const Navbar = () => {
           </button>
           <button
             className={`hover:text-white transition duration-300 ${
+              activeSection === "certs" ? "text-white" : ""
+            }`}
+            onClick={() => handleScroll("certs")}
+            aria-label="Scroll to Certs"
+          >
+            Certs
+          </button>
+          <button
+            className={`hover:text-white transition duration-300 ${
               activeSection === "techstack" ? "text-white" : ""
             }`}
             onClick={() => handleScroll("techstack")}
             aria-label="Scroll to Tech Stack"
           >
             Tech Stack
-          </button>
-          <button
-            className={`hover:text-white transition duration-300 ${
-              activeSection === "certs" ? "text-white" : ""
-            }`}
-            onClick={() => handleScroll("certs")}
-            aria-label="Scroll to certs"
-          >
-            Certs
           </button>
           <a
             href="https://drive.google.com/file/d/1ROq_rRMRKoWEByms4JukUvm3Fud_mUtL/view?usp=sharing"
