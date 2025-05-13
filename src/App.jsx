@@ -30,7 +30,6 @@ const App = () => {
                   <Projects />
                   <Certs />
                   <TechStack />
-                  <Contact />
                   <Footer />
                 </>
               }
