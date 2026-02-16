@@ -16,7 +16,7 @@ export const CERTS = [
       credUrl: "https://www.credly.com/badges/cee45a06-c5c4-484a-be6d-c0111dfcd1e6/linked_in_profile",
     },
     {
-      title: "AwS Certified Cloud Practitioner",
+      title: "AWS Certified Cloud Practitioner",
       provider: "Amazon",
       image: CCP,  
       credUrl: "https://www.credly.com/badges/f5ca35e1-db53-402d-972d-3f5b261a2432/linked_in_profile",
