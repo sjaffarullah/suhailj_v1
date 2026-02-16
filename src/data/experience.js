@@ -3,8 +3,8 @@ export const EXPERIENCES = [
     year: "Jan 2025 - Present",
     role: "IT Technical Analyst",
     company: "Wonderbrands",
-    description: "Provide technical support and systems analysis to optimize IT operations, resolve complex issues, and enhance infrastructure performance. Collaborate with cross-functional teams to implement solutions, strengthen security, and ensure reliable technology services.",
-    technologies: ["Microsoft Azure", "Microsoft Entra ID", "Microsoft Intune", "Microsoft 365", "ServiceNow", "SCCM", , "Microsoft Defender for Endpoint"],
+    description: "Provide enterprise-level technical support and systems administration across Microsoft cloud and endpoint environments, managing identity, device, and security platforms. Troubleshoot complex incidents, implement solutions, and collaborate with cross-functional teams to maintain secure, reliable IT operations.",
+    technologies: ["Microsoft Azure", "Microsoft Entra ID", "Microsoft Intune", "Microsoft Defender", "Exchange Admin Center", "SharePoint Admin Center", "SCCM", "ServiceNow"],
   },
   {
     year: "May 2023 - Jan 2024",
