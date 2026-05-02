@@ -3,7 +3,7 @@ export const EXPERIENCES = [
     year: "Jan 2025 - Present",
     role: "Systems and Infrastructure Analyst",
     company: "Wonderbrands",
-    description: "Managing cloud identity, endpoints, and M365 for 500+ users — cut access incidents by 40%, automated provisioning workflows, and resolve complex Tier 2/3 issues across DNS, VPN, Intune, and Entra ID.",
+    description: "Managing cloud identity, endpoints, and M365 for 500+ users - cut access incidents by 40%, automated provisioning workflows, and resolve complex Tier 2/3 issues across DNS, VPN, Intune, and Entra ID.",
     technologies: ["Microsoft Azure", "Microsoft Entra ID", "Microsoft Intune", "Microsoft Defender", "Exchange Admin Center", "SharePoint Admin Center", "SCCM", "ServiceNow"],
   },
   {
